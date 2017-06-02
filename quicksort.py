@@ -1,7 +1,4 @@
 def quicksort(A, p, r):
-    #q = (p + r) // 2
-
-    #print(q)
     if p < r:
         q = partition(A, p, r)
         
