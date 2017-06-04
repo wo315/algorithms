@@ -16,7 +16,7 @@ def merge(A, p, q, r):
         else:
             A[k] = R[j]
             j += 1
-    #return A
+    return A
 
 def merge_sort(A, p, r):
     if p < r:
